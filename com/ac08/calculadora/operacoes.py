@@ -1,18 +1,22 @@
-def soma(num1, num2):
-    a = num1 + num2
-    return a
+def soma (num1, num2):
+	""" Função de Soma """
+	n1 = num1 + num2 
+	return n1
 
 
-def subt(num1, num2):
-    b = num1 - num2
-    return b
+def subt (num1, num2):
+	""" Função de Subtração """
+	n1 = num1 - num2
+	return n1
 
 
 def mult(num1, num2):
-    m = num1 * num2
-    return m
+	""" Função de Multiplicação """
+	n1 = num1 * num2
+	return n1
 
 
 def divi(num1, num2):
-    d = num1 / num2
-    return d
+	""" Função de Divisao """
+	n1 = num1 / num2
+	return n1
