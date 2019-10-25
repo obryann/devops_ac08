@@ -13,4 +13,4 @@ def test_root_url():
     """ testando URL da raíz """
     instancia_app = app_web_start.APP.test_client()
     response = instancia_app.get('/')
-    assert response.data.decode('utf-8') == 'Index Page', 'Deveria ser ...'
+    assert response.data.decode('utf-8') == 'Index Page!', 'Deveria ser Index Page!'
