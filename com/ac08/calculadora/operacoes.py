@@ -1,6 +1,7 @@
+""" Operações """
 def soma(num1, num2):
     """ Função de Soma """
-    n_1 = num1 + num2 
+    n_1 = num1 + num2
     return n_1
 
 
