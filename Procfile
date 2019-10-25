@@ -1,0 +1,1 @@
+web gunicorn --pythonpath com/ac08/calculadora app_web_start:APP
