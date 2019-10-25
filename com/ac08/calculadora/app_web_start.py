@@ -1,10 +1,12 @@
+""" Página Flask """
 from flask import Flask
 
-app = Flask(__name__)
+APP = Flask(__name__)
 
-@app.route('/')
+@APP.route('/')
 def index():
+    """ Index do Site """
     return 'Index Page!'
 
 if __name__ == '__main__':
-    app.run()
+    APP.run()
